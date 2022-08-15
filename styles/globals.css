@@ -1,0 +1,402 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Century Schoolbook";
+  src: url("../public/Font/CenturySchool/Century-Schoolbook.ttf");
+  font-weight: 300;
+  font-style: bold;
+}
+
+@font-face {
+  font-family: "Cache";
+  src: url("../public/Font/Cache/Cache-Regular.ttf");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Cache-Pressed";
+  src: url("../public/Font/Cache/Cache-Pressed.ttf");
+  font-weight: 300;
+  font-style: normal;
+} 
+
+/* .navbar-brand {
+  position: static !important;
+  top: 2%;
+  width: 100%;         
+} */
+
+.heroImg {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  max-height:200px;
+}
+
+.heroTitle {
+  /* margin-top: 60px;
+  margin-bottom: 0px; */
+  line-height: 85%;
+}
+
+.titleTextHeight {
+  line-height: 0.9;
+}
+
+.heroDetails {
+  margin-top: 30px;
+}
+
+.heroHeight{
+  min-height: 100vh;
+}
+
+.heroButton {
+  margin-top: 10px;
+}
+.text-title1 {
+  font-family: "Cache";
+  font-size: 7rem;
+  font-style: normal;
+  color: #212020;
+  text-transform: uppercase;
+}
+
+.text-title2 {
+  font-family: "Cache";
+  font-size: 5rem;
+  margin: 0;
+  font-style: normal;
+  color: #212020;
+  text-transform: uppercase;
+}
+
+.text-title3 {
+  font-family: "Cache";
+  font-size: 4rem;
+  margin: 0;
+  font-style: normal;
+}
+
+.text-body1 {
+  font-family: "Courier Prime";
+  font-size: 1.3rem;
+  margin: 0;
+  font-style: normal;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.text-body2 {
+  font-family: "Courier Prime";
+  font-size: 1rem;
+  margin: 0;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.faqAccBorder {
+  border: solid 2.5px #212020;
+}
+
+.text-body3 {
+  font-family: "Courier Prime";
+  font-size: 0.8rem;
+  margin: 0;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.text-header0 {
+  font-family: "Century Schoolbook";
+  font-size: 1.8rem;
+  margin: 0;
+  font-style: normal;
+  font-weight: bold;
+}
+
+.text-header1 {
+  font-family: "Century Schoolbook";
+  font-size: 1.6rem;
+  margin: 0;
+  font-style: normal;
+  font-weight: bold;
+}
+
+.text-header2 {
+  font-family: "Century Schoolbook";
+  font-size: 1.3rem;
+  margin: 0;
+  font-style: normal;
+  font-weight: bold;
+}
+
+.text-header3 {
+  font-family: "Century Schoolbook";
+  font-size: 1rem;
+  margin: 0;
+  font-style: normal;
+  font-weight: bold;
+
+}
+
+.text-header4 {
+  font-family: "Century Schoolbook";
+  font-size: 1.1rem;
+  margin: 0;
+  font-style: normal;
+  font-weight: bold;
+}
+
+.text-header5 {
+  font-family: "Century Schoolbook";
+  font-size: 0.8rem;
+  margin: 0;
+  font-style: normal;
+  font-weight: bold;
+}
+
+.navbar-nav > li{
+  margin-left:20px;
+  margin-right:20px;
+  font-family: "Courier Prime",serif;
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+
+.dropdown-menu {
+  background-color: #F5F1D4 !important;
+}
+
+.dropdown-menu :hover {
+  background-color: #F4700B !important;
+}
+
+.accordion {
+  --bs-accordion-bg: #DDDDD3 !important;
+  --bs-accordion-border-color: #212020 !important;
+  --bs-accordion-active-color: #212121 !important;
+  --bs-accordion-active-bg: #F4700B !important;
+  --bs-accordion-btn-focus-box-shadow: 0 !important;
+  --bs-accordion-btn-active-icon: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23212121'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e") !important;
+}
+
+.p1Primary {
+  color: #F5F1D4;
+}
+.p1Secondary {
+  color: #DDDDD3;
+}
+.p1Accent {
+  color: #F4700B;
+}
+.p1Dark {
+  color: #212020;
+}
+
+.bg-p1Primary {
+  background-color: #F5F1D4;
+  overflow-x: hidden;
+}
+.bg-p1Secondary {
+  background-color: #DDDDD3 !important;
+}
+.bg-p1Accent {
+  background-color: #F4700B;
+}
+.bg-p1Dark {
+  background-color: #212020;
+}
+
+.imgLink {
+  cursor: pointer;
+}
+
+nav .navbar-nav li a {
+  color: #212020 !important;
+}
+nav .navbar-nav li a:hover {
+  color: #F5F1D4 !important;
+}
+nav .navbar-nav li a:active {
+  color: #F5F1D4 !important;
+}
+
+.banner-content {
+  max-width: 550px;
+  margin-left: auto;
+}
+
+.btn-primary, .btn-primary:active, .btn-primary:visited {
+  background-color: #F4700B !important;
+  font-family: 'Courier Prime' !important;
+  color: #212020 !important;
+  border: 0.02rem solid !important;
+  border-color: #F4700B !important;
+  border-radius: 15px !important;
+  padding: 0.5rem 2rem !important;
+  font-weight: bold !important;
+}
+
+.btn-primary:hover {
+  background-color: #F5F1D4 !important;
+  font-family: 'Courier Prime' !important;
+  font-weight: bold !important;
+  color: #212020 !important;
+  border: 0.02rem solid !important;
+  border-color: #212020 !important;
+  
+}
+
+.btn-ordernav, .btn-ordernav:active, .btn-ordernav:visited {
+  background-color: #212020 !important;
+  font-family: 'Courier Prime' !important;
+  color: #F5F1D4 !important;
+  border: 0.02rem solid !important;
+  border-color: #212020 !important;
+  border-radius: 15px !important;
+  padding: 0.5rem 2rem !important;
+  font-weight: bold !important;
+}
+
+.btn-ordernav:hover {
+  background-color: #DDDDD3 !important;
+  font-family: 'Courier Prime' !important;
+  font-weight: bold !important;
+  color: #212020 !important;
+  border: 0.02rem solid !important;
+  border-color: #DDDDD3 !important;
+  
+}
+
+.cardbuttoncontainer {
+  width: auto;
+  padding: 0px 10px 15px;
+}
+
+.ourFarmDiv {
+  background-image: url('../public/Images/beeBG.png');
+  background-repeat:no-repeat;
+  background-size:contain;
+  background-position:center;
+}
+
+.ornaments {
+  position: center;
+}
+
+
+.sectionHeight{
+  height: 100%;
+}
+
+.formHeight{
+  height: 100%;
+}
+
+.sectionBannerHeight{
+  height: 500px;
+}
+
+.imgTile {
+  color: #212020;
+  opacity: 75%;
+}
+
+.userPic {
+  width: 70px;
+}
+
+.p1border {
+  border: 3px solid #212020;
+}
+
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; }
+
+.footer-img {
+  width: 100px;
+  min-width: 50px;
+}
+
+.bg-banner {
+  background: url("../public/Images/banner.png") center / cover no-repeat;
+}
+
+.responsiveBG {
+  background: url("../public/Images/responsiveBG.png");
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position:center;
+}
+
+.gmaps {
+  width: 800px;
+  height: 300px !important;
+}
+
+.mead-BG {
+  background: url('../public/Images/Valhalla1.png') no-repeat bottom center;
+  background-color: #DDDDD3;
+  background-size: 50%;
+}
+
+.sectionHoney {
+  height: 100%;
+}
+
+.sectionMead {
+  height: 750px;
+}
+
+
+@media (max-width: 767px) {
+  .responsiveBG {
+      background: #F5F1D4;
+      overflow-x: hidden;
+      height: 90vh;
+  }
+
+  .sectionHeight{
+      height: 100vh;
+  }
+
+  .sectionBannerHeight{
+      height: 60vh;
+  }
+
+} 
+
+@media (min-width: 992px) {
+  .sectionHoney, .sectionMead {
+      height: 90vh;
+  }
+
+  .mead-BG {
+      background: url('../public/Images/Valhalla1.png') no-repeat bottom center;
+      background-color: #DDDDD3;
+      background-size: 35%;
+  }
+}
+
+@media (min-width: 1500px) {
+  .sectionHeight, .heroHeight{
+      max-height: 800px;
+  }
+  
+  .sectionBannerHeight, .sectionMidHeight, .sectionHoney{
+      height: 700px;
+  }
+
+  .responsiveBG {
+      background: #F5F1D4;
+      overflow-x: hidden;
+      height: 750px;
+  }
+}
