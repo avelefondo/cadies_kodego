@@ -79,8 +79,8 @@ export default function Honey() {
                             <div id="flush-collapseOne" className="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
                                 <div className="accordion-body text-body3">
                                   PURE ALL NATURAL GRADE A HONEY: This honey is pure, all natural & 
-                                  has just one ingredient: honey. It’s the standard all honey is judged by, 
-                                  & the name that’s been known & trusted for generations.
+                                  has just one ingredient: honey. It&apos;s the standard all honey is judged by, 
+                                  & the name that&apos;s been known & trusted for generations.
                                 </div>
                                 <p className="text-header3">Nutrition Information</p>
                             </div>

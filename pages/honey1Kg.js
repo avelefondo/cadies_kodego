@@ -32,7 +32,7 @@ export default function Honey() {
               <div className="c0l-12 col-lg-4 p-2">
                 <div className="row gy-4">
                   <div className="col-12">
-                    <p className="text-header0 text-center text-lg-start">Cadie’s Dark Wildflower Liquid Honey - 1.3Kg</p>
+                    <p className="text-header0 text-center text-lg-start">Cadie&apos;s Dark Wildflower Liquid Honey - 1.3Kg</p>
                     <p className="text-body2 mt-4 text-center text-lg-start ">
                         The dark nectar of plants such as Sunflowers, Japanese Knotweed, 
                        Asters & Golden Rod contribute to this rich and robust honey.

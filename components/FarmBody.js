@@ -26,9 +26,9 @@ export default function FarmBody() {
                             <div className="col-12">
                                 <p className="text-title2 p1Accent text-center text-lg-start">THE KEEPER</p>
                                 <p className="text-body2 text-center text-lg-start">
-                                    If you’re wondering how a man who has worked most of 
+                                    If you&apos;re wondering how a man who has worked most of 
                                     his adult life in the corporate world now runs a 
-                                    successful bee farm, I don’t blame you! But actually, 
+                                    successful bee farm, I don&apos;t blame you! But actually, 
                                     I am a certified Cornell Mastered beekeeper and I 
                                     have been caring for bees for many years of my life. 
                                     Now, I choose to educate others who are looking to 
@@ -59,7 +59,7 @@ export default function FarmBody() {
                         </div>
                         <p className="text-header2 px-3 mb-4">WE WOULD LOVE TO SEE YOU HERE</p>
                         <p className="text-body2 px-3 mb-3">
-                            We’re located at Purok 1 Barangay, Daet, 4600 Camarines Norte. We and our 
+                            We&apos;re located at Purok 1 Barangay, Daet, 4600 Camarines Norte. We and our 
                             hard working bees will love you see you here. See you!
                         </p>
                     </div>
