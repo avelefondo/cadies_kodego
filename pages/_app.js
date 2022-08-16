@@ -1,5 +1,6 @@
 import '../styles/globals.css';
-import "../styles/custom.css"
+import "../styles/custom.css";
+import "../public/Font/font.css";
 import { config } from '@fortawesome/fontawesome-svg-core'
 import '../node_modules/@fortawesome/fontawesome-svg-core/styles.css'
 import Head from "next/head"
