@@ -307,11 +307,11 @@ a:active { text-decoration: none; }
 }
 
 .bg-banner {
-  background: url("../public/Images/banner.png") center / cover no-repeat;
+  background: url("/Images/banner.png") center / cover no-repeat;
 }
 
 .responsiveBG {
-  background: url("../public/Images/responsiveBG.png");
+  background: url("/Images/responsiveBG.png");
   background-repeat:no-repeat;
   background-size:cover;
   background-position:center;
@@ -323,7 +323,7 @@ a:active { text-decoration: none; }
 }
 
 .mead-BG {
-  background: url('../public/Images/Valhalla1.png') no-repeat bottom center;
+  background: url('/Images/Valhalla1.png') no-repeat bottom center;
   background-color: #DDDDD3;
   background-size: 50%;
 }
@@ -378,7 +378,7 @@ a:active { text-decoration: none; }
   }
 
   .mead-BG {
-      background: url('../public/Images/Valhalla1.png') no-repeat bottom center;
+      background: url('/Images/Valhalla1.png') no-repeat bottom center;
       background-color: #DDDDD3;
       background-size: 35%;
   }
