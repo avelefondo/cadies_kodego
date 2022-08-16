@@ -22,7 +22,7 @@ export default function Creations() {
                     <div className="row">
                         <span className="col-lg-1"></span>
                         <div className="col-12 col-lg-5">
-                            <div className="card">
+                            <div className="card mb-3">
                                 <Image src={HoneyRec} className="card-img-top" alt="Honey"/>
                                 <div className="card-body bg-p1Secondary px-3">
                                     <p className="card-text text-center text-body2">The dark nectar of plants such as Sunflowers, Japanese Knotweed, 

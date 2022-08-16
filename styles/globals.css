@@ -5,25 +5,20 @@
 }
 
 @font-face {
+  font-family: 'cacheregular';
+  src: url('../public/Font/Cache/cache-regular-webfont.woff2') format('woff2'),
+       url('../public/Font/Cache/cache-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
   font-family: "Century Schoolbook";
   src: url("../public/Font/CenturySchool/Century-Schoolbook.ttf");
   font-weight: 300;
   font-style: bold;
 }
-
-@font-face {
-  font-family: "Cache";
-  src: url("../public/Font/Cache/Cache-Regular.ttf");
-  font-weight: 300;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Cache-Pressed";
-  src: url("../public/Font/Cache/Cache-Pressed.ttf");
-  font-weight: 300;
-  font-style: normal;
-} 
 
 /* .navbar-brand {
   position: static !important;
@@ -370,6 +365,15 @@ a:active { text-decoration: none; }
   .sectionBannerHeight{
       height: 60vh;
   }
+
+  .text-title1 {
+    font-family: "Cache";
+    font-size: 5.3rem;
+    font-style: normal;
+    color: #212020;
+    text-transform: uppercase;
+  }
+
 
 } 
 

@@ -6,7 +6,7 @@ import Logo from "../public/Images/ApiaryLogo.svg"
 
 export default function Navbar() {
     return (
-      <nav className="navbar navbar-expand-lg bg-p1Accent d-flex flex-row justify-content-between">
+      <nav className="navbar navbar-expand-lg bg-p1Accent d-flex flex-row justify-content-around">
         <div className=" px-3 my-2 container-fluid">
           <div className="d-block d-sm-block d-md-none">
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
