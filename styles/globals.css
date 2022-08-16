@@ -260,7 +260,7 @@ nav .navbar-nav li a:active {
 }
 
 .ourFarmDiv {
-  background-image: url('../public/Images/beeBG.png');
+  background-image: url('/Images/beeBG.png');
   background-repeat:no-repeat;
   background-size:contain;
   background-position:center;
