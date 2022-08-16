@@ -1,6 +1,8 @@
 import Link from "next/link";
 import Image from "next/image";
 import Ornament from "../public/Images/Ornament.png"
+import "../public/Images/beeBG.png"
+
 
 export default function Farm() {
     return (
