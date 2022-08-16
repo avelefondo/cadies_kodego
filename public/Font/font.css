@@ -1,15 +1,15 @@
 @font-face {
-    font-family: 'cacheregular';
-    src: url('../public/Font/Cache/cache-regular-webfont.woff2') format('woff2'),
-         url('../public/Font/Cache/cache-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-  
-  }
-  
-  @font-face {
-    font-family: "Century Schoolbook";
-    src: url("../public/Font/CenturySchool/Century-Schoolbook.ttf");
-    font-weight: 300;
-    font-style: bold;
-  }
+  font-family: 'cacheregular';
+  src: url('../Font/Cache/cache-regular-webfont.woff2') format('woff2'),
+       url('../Font/Cache/cache-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: "Century Schoolbook";
+  src: url("../Font/CenturySchool/Century-Schoolbook.ttf");
+  font-weight: 300;
+  font-style: bold;
+}
